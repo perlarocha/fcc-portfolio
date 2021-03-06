@@ -1,0 +1,182 @@
+.main-container {
+  background: #EFE7E3;
+  margin: 2% 2%;
+  padding: 2% 2%;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: white;
+  z-index: 10;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  margin-right: 10rem;
+}
+
+.nav li {
+  padding: 0 10%;
+}
+
+.welcome-section {
+  width: 100%;
+  height: 100vh;
+  margin-top: 10%;
+  margin-bottom: 0%;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.welcome-section:before {
+    display: block;
+    content: "";
+    height: 100px;
+    margin: -50px 0 0;
+}
+
+hr {
+    border: none;
+    border-top: 3px dotted #333;
+    color: black;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+hr:after {
+    background: #EFE7E3;
+    content: 'Projects';
+    font-family: 'Beth Ellen', cursive;
+    font-size: 3rem;
+    padding: 0 4px;
+    position: relative;
+    top: -70px;
+}
+
+.project-card {
+  display: flex;
+  align-items: center;
+  padding: 10% 2% 10% 2%;
+}
+
+#projects:before {
+    display: block;
+    content: "";
+    height: 150px;
+    margin: -50px 0 0;
+}
+
+img {
+  max-width: 40vw;
+}
+
+#landing {
+  margin-left: 10%;
+  text-align: right;
+}
+
+@media (max-width: 700px) {
+  .project-card {
+    flex-wrap: wrap;
+  }
+}
+
+.more-button {
+  display: block;
+  width: 40%;
+  background: black;
+  text-align: center;
+  margin-left: 30%;
+  padding: 1% 0;
+}
+
+a.more-button {
+ color: white;
+}
+
+.more-button:hover {
+  opacity: 0.8;
+  color: white;
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  line-height: 0.5;
+  padding: 10% 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 0.2rem;
+}
+
+.btn:hover {
+  background: black;
+  color: white;
+  border-radius: 0.2rem;
+}
+
+footer {
+  display: block;
+  background: black;
+  color: white;
+  font-family: 'Oranienbaum', serif;
+  padding: 1rem;
+  text-align: right;
+}
+
+/* Fonts */
+
+h1 {
+  font-family: 'Beth Ellen', cursive;
+  font-size: 4rem;
+}
+
+#logo {
+  font-size: 1.5rem;
+}
+
+h2,
+h4 {
+  font-family: 'Oranienbaum', serif;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+h3 {
+  font-family: 'Beth Ellen', cursive;
+  font-size: 2rem;
+}
+
+h2.contact {
+  font-size: 4rem;
+}
+
+p {
+  font-family: 'Oranienbaum', serif;
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+a {
+  color: black;
+  font-family: 'Oranienbaum', serif;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #47478D;
+}
